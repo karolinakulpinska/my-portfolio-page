@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-/* Navbar */
+/* Header starts here */
 header {
   padding: 2vmax;
   background-color: rgb(15, 15, 15);
@@ -92,6 +92,7 @@ nav a:hover {
 }
 /* Navbar ends here */
 
+/* Body starts here */
 body {
   margin: 0;
   padding: 0;
@@ -100,6 +101,7 @@ body {
   background-color: #181818;
 }
 
+/* Hero image displayed under navbar */
 .hero-image {
   width: 100%;
   margin-bottom: 0;
@@ -112,15 +114,16 @@ figcaption {
   color: #999;
 }
 
-.subtitle {
-  text-align: center;
-}
-
+/* Subtitle */
 h4 {
   color: white;
   text-align: center;
   padding: 2vmax;
   font-style: oblique;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 h2 {
@@ -133,4 +136,11 @@ p {
   margin-right: 2vmax;
   color: #ffffff;
   font-weight:lighter;
+}
+
+.web-gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
 }
