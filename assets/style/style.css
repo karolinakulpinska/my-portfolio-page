@@ -110,6 +110,7 @@ body {
 figcaption {
   font-size: 0.8vmax;
   margin-top: 0;
+  margin-right: 5px;
   text-align: end;
   color: #999;
 }
@@ -140,7 +141,8 @@ p {
   font-weight:lighter;
 }
 
-.web-gallery, .art-gallery {
+/* Web gallery */
+.web-gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
@@ -193,4 +195,12 @@ p {
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+/* Art gallery */
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 5vw);
+  grid-gap: 15px;
 }
