@@ -5,27 +5,25 @@
   margin: 0;
 }
 /* Navbar */
-header {
+.flex-container {
   padding: 20px;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(15, 15, 15);
-  color: #ffffff;
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-img {
-  display: inline;
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  align-items: center;
 }
 
 .header-headline {
   font-size: 25px;
   margin-left: 20px;
-  align-items: center;
+  color: #ffffff;
 }
 
 .header-nav {
@@ -37,7 +35,6 @@ header {
 
 nav ul li {
   list-style-type: none;
-  margin-left: 25px;
   justify-content: flex-end;
 }
 
