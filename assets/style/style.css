@@ -8,7 +8,6 @@
 /* Navbar */
 header {
   padding: 2vmax;
-  font-family: "Courier New", Courier, monospace;
   background-color: rgb(15, 15, 15);
   width: 100%;
   display: flex;
@@ -79,20 +78,28 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
   line-height: 1.5;
   background-color: #181818;
 }
 
+.hero-image {
+  width: 100%;
+}
+
 h4 {
-  color: rgb(85, 85, 85);
+  color: white;
+  text-align: center;
+  padding: 2vmax;
 }
 
 h2 {
   color: rosybrown;
+  margin: 3vmax;
 }
 
 p {
-  margin: 0;
+  margin: 2vmax;
   color: #ffffff;
+  font-weight:lighter;
 }
