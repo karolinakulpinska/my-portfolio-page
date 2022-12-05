@@ -28,8 +28,21 @@ h1 {
   color: #ffffff;
   font-size: 2vmax;
   text-align: center;
+  line-height: 2;
 }
 
+pre code {
+  background-color:#eee;
+  border: 1px solid #999;
+  color: black;
+  padding: 3px;
+}
+
+.draw-font {
+  font-family: 'Charmonman';
+}
+
+/* Navbar starts here */
 nav ul li {
   list-style: none;
   padding-left: 2vmax;
@@ -62,6 +75,7 @@ nav a {
   display: block;
   padding: 0.8vw;
   margin-right: 2vmax;
+  line-height: 2;
 }
 
 nav a:hover {
@@ -72,7 +86,6 @@ nav a:hover {
   color: rosybrown;
   font-style: italic;
 }
-
 /* Navbar ends here */
 
 body {
@@ -85,6 +98,10 @@ body {
 
 .hero-image {
   width: 100%;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 h4 {
