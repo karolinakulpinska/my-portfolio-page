@@ -5,7 +5,7 @@
   margin: 0;
 }
 /* Navbar */
-.flex-container {
+header {
   padding: 20px;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(15, 15, 15);
@@ -21,7 +21,7 @@
 }
 
 .header-headline {
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-left: 20px;
   color: #ffffff;
 }
