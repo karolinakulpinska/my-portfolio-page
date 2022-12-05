@@ -119,15 +119,18 @@ h2 {
   color: rosybrown;
   text-align: center;
   padding: 2vmax;
+  font-size: 2.3vmax;
 }
 
 .subtitle {
   text-align: center;
+  font-size: 1.8vmax;
 }
 
 h3 {
   color: rosybrown;
   margin: 3vmax;
+  font-size: 2vmax;
 }
 
 p {
@@ -137,7 +140,7 @@ p {
   font-weight:lighter;
 }
 
-.web-gallery {
+.web-gallery, .art-gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
