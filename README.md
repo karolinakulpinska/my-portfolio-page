@@ -1,1 +1,3 @@
-# my-portfolio-page
+# Karolina Kulpinska - Personal Portfolio
+
+## Description
