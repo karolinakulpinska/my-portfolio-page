@@ -33,20 +33,20 @@ h1 {
 }
 
 pre code {
-  background-color:#eee;
+  background-color: #eee;
   border: 1px solid #999;
   color: black;
   padding: 3px;
 }
 
 .draw-font {
-  font-family: 'Charmonman';
+  font-family: "Charmonman";
 }
 
 /* Navbar starts here */
 nav ul li {
   list-style: none;
-  background-color:rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15);
 }
 
 /* Hide dropdowns by default */
@@ -91,7 +91,7 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   line-height: 1.5;
   background-color: #181818;
 }
@@ -134,7 +134,7 @@ p {
   margin-left: 2vmax;
   margin-right: 2vmax;
   color: #ffffff;
-  font-weight:lighter;
+  font-weight: lighter;
   font-size: 1.8vmax;
 }
 /* General gallery styles */
@@ -275,7 +275,7 @@ a {
   grid-row-end: 16;
 }
 
-/* Contact me container */
+/* Contact me */
 .contact-me {
   text-align: center;
 }
