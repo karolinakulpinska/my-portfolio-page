@@ -136,6 +136,7 @@ p {
   color: #ffffff;
   font-weight: lighter;
   font-size: 1.8vmax;
+  text-align: justify;
 }
 /* General gallery styles */
 .gallery-img {
